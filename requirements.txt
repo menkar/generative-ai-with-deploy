@@ -14,4 +14,5 @@ tiktoken
 fastapi
 uvicorn
 requests
+streamlit
 langchain_huggingface

@@ -12,6 +12,6 @@ llm = HuggingFacePipeline.from_model_id(
 
 chat_model = ChatHuggingFace(llm = llm)
 
-response = chat_model.invoke("What is generative ai?")
+response = chat_model.invoke("What is Machine Learning?")
 
 print(response.content)
